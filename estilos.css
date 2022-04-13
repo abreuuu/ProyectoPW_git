@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    background-color: rgb(43, 128, 226);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+*{
+    padding: 0;
+    margin: 0
+}
+nav ul{
+    background-color: black;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 170;
+    text-decoration: none;
+}
+nav li {
+    display: inline-flex;
+}
+
+nav li:hover{
+    background-color: rgb(87, 220, 230);
+}
+#PerroPrincipal{
+    width: 80%;
+    height: auto;
+    display: inline-flex;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+.principal img{
+    width: fit-content;
+    height: fit-content;
+}
+ 
+.principal {
+    background-color: rgb(250, 250, 250);
+    justify-content: center;
+}
